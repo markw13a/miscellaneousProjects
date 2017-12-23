@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<fieldset id="top">
+			<p>Fields marked with an asterisk (*) are mandatory</p>
+			<label id="user-label">
+				Username
+				<input type="text" name="user">
+				<p>*</p>
+				<h3 class="errorMessage"></h3>
+			</label>
+			<label id="pass-label">
+				Password
+				<input type="password" name="pass">
+				<p>*</p>
+				<h3 class="errorMessage"></h3>
+			</label>
+		</fieldset>
+		<fieldset id="bottom">
+			<input type="submit" value="Login" class="button">
+			<label class="check-label">
+				<input type="checkbox">
+				Stay signed in
+			</label>
+		</fieldset>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
